@@ -1,0 +1,9 @@
+{
+  "trustedSenderIds": ["a89fbac6-a02f-4848-a3b7-94c47184a537"],
+  "maxAgeSeconds": 3600,
+  "maxRadiusKm": 20,
+  "sites": [
+    { "id": "north-desk", "name": "North service desk", "latitude": 25.21, "longitude": 55.28, "enabled": true },
+    { "id": "south-desk", "name": "South service desk", "latitude": 25.18, "longitude": 55.27, "enabled": true }
+  ]
+}

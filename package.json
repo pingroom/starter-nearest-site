@@ -1,0 +1,19 @@
+{
+  "name": "pingroom-starter-nearest-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Suggest a nearby service site from an explicitly shared PingRoom map point.",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node src/main.js plan",
+    "plan": "node src/main.js plan",
+    "send": "node src/main.js send",
+    "recover": "node src/main.js recover",
+    "connect": "node src/connect.js",
+    "demo": "node src/demo.js",
+    "test": "node --test"
+  },
+  "dependencies": { "@pingroom/sdk": "0.6.0" },
+  "license": "MIT"
+}
